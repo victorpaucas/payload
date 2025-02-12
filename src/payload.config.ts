@@ -33,7 +33,6 @@ export default buildConfig({
     connectOptions: {
       tls: true,
       tlsAllowInvalidCertificates: true,
-      tlsCAFile: path.resolve(dirname, 'global-bundle.pem'),
       readPreference: 'primary',
       retryWrites: false,
       autoIndex: false,
