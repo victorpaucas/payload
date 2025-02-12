@@ -16,8 +16,6 @@ services:
              npm install -g pnpm@9.2.0 &&
              pnpm install &&
              pnpm dev"
-    depends_on:
-      - mongo
     env_file:
       - .env
 
